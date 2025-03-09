@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<Enum uuid="9d793ce5-91ee-4b27-a950-46116d3340a7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФормаВыпуска" category="Ref">
+				<xr:TypeId>cf0b5de4-b664-47fd-ae9d-385f5f9d15d6</xr:TypeId>
+				<xr:ValueId>8f55f6ac-a0c5-4430-96e7-076c2cc6018c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФормаВыпуска" category="Manager">
+				<xr:TypeId>7d6c1d21-5fd7-455d-8a53-ecfa71d7022d</xr:TypeId>
+				<xr:ValueId>6506e30b-f178-4019-8b18-60d03952544a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФормаВыпуска" category="List">
+				<xr:TypeId>875ed3ea-c4f2-4805-825d-4c48b9dab17f</xr:TypeId>
+				<xr:ValueId>9552ddb2-e05c-41ed-b368-d06cb9516f3b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФормаВыпуска</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма выпуска</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="85cea640-47f5-412a-b9dc-af3f55c70c5c">
+				<Properties>
+					<Name>Гель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8cc090c5-ad7d-47c1-917f-182c9de90e82">
+				<Properties>
+					<Name>Капли</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Капли</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f10e4be3-4f6d-4992-9147-c0ec768f99ba">
+				<Properties>
+					<Name>Капсулы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Капсулы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2723f92a-87d4-4ab5-ab27-38d09c286380">
+				<Properties>
+					<Name>Крем</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Крем</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f3ea1fff-bc09-493d-b673-55f6741a96be">
+				<Properties>
+					<Name>Настойка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настойка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af7c2bb6-add9-4a82-9a4f-fb2a5f92e58f">
+				<Properties>
+					<Name>Порошок</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порошок</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="303126d8-48a8-45c6-9f24-e29b73618844">
+				<Properties>
+					<Name>Раствор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Раствор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3c690f40-928b-4c76-bcf5-43a3d3b3512f">
+				<Properties>
+					<Name>Сироп</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сироп</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f13d33e0-97bd-44b5-9187-65ab640bc199">
+				<Properties>
+					<Name>Спрей</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Спрей</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="52aa4b4f-7c1a-40a1-b2b0-37cd6e5c7ec0">
+				<Properties>
+					<Name>Суппозитории</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Суппозитории</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a5aa7328-a2b0-47df-804b-cb03086791fd">
+				<Properties>
+					<Name>Суспензия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Суспензия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c94af83b-143c-4b77-9f25-10bbd3ac0bb1">
+				<Properties>
+					<Name>Таблетки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблетки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="af34705c-2038-49b6-85b7-5454d1d807ea">
+				<Properties>
+					<Name>Эмульсия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Эмульсия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6333b8b8-3b43-4947-af42-b7d12ea87de2">
+				<Properties>
+					<Name>аэрозольдляингаляцийдозированный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>аэрозоль для ингаляций дозированный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a4e4cf2a-bb7b-40df-9ee4-06a123eef750">
+				<Properties>
+					<Name>гранулыгомеопатические</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>гранулы гомеопатические</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3efa627b-91a1-4981-85a4-116558515fd6">
+				<Properties>
+					<Name>гранулыдприграстворадляприемавнутрь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>гранулы д/приг раствора для приема внутрь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9d3db87f-7b56-43ac-85ee-10ea606d9cec">
+				<Properties>
+					<Name>капсулыкишечнорастворимые</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>капсулы кишечнорастворимые</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c887049e-a061-4fbf-aad8-0cc992a769cf">
+				<Properties>
+					<Name>капсулысмодифицированнымвысвобождением</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>капсулы с модифицированным высвобождением</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="43d89df8-8085-4ed4-b023-d116fe4b14a3">
+				<Properties>
+					<Name>концентратдприграстворадляинфузий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>концентрат д/приг раствора для инфузий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b75ec6be-fb57-4a31-9633-0a462f10c6f3">
+				<Properties>
+					<Name>кремдлянаружногоприменения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>крем для наружного применения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ef6f6079-2fd7-410e-860f-a7db4b653f71">
+				<Properties>
+					<Name>лиофилизатввивмввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>лиофилизат д/приг раствора для в/в и в/м введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7b6d9d55-2f02-479b-9de5-35ae31faaccb">
+				<Properties>
+					<Name>лиофилизатд</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>лиофилизат д/приг раствора для в/м введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5e06daaa-ebf6-4642-a12b-ff6a32151955">
+				<Properties>
+					<Name>инфузий</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>лиофилизат д/приг раствора для инфузий</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5412521f-72fc-4f12-8bfb-0b0ee4276cf9">
+				<Properties>
+					<Name>иньекций</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>лиофилизат д/приг раствора для иньекций</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="69c80400-7eee-4fe7-9299-d3e34536ae56">
+				<Properties>
+					<Name>мазьдлянаружногоприменения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>мазь для наружного применения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d4464148-931e-4fd4-be38-075a02223db1">
+				<Properties>
+					<Name>порошокввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порошок д/приг раствора для в/в и в/м введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="012d1b26-b941-4b01-9993-f431e26a1ab2">
+				<Properties>
+					<Name>порошокприемавнутрь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порошок д/приг раствора для приема внутрь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7e403a56-268d-46f8-83e2-edfe4be48cf0">
+				<Properties>
+					<Name>порошоксуспензиидляприемавнутрь</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порошок д/приг суспензии для приема внутрь</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4c88ea9d-71a6-423f-9835-c2c43222d5fd">
+				<Properties>
+					<Name>порошокдляингаляцийдозированный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>порошок для ингаляций дозированный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="54eddf48-c9d0-4627-90bc-07266e5de335">
+				<Properties>
+					<Name>раствордляввввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раствор для в/в введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a29a4ffb-4b43-4d12-85a6-aebe8ee2487b">
+				<Properties>
+					<Name>раствордляввивмввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раствор для в/в и в/м введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e88efe19-f5b0-4a08-8535-e7114950af2f">
+				<Properties>
+					<Name>растворипкввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раствор для в/в и п/к введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f0cfbf4d-c743-4370-81ca-27b3ea12ca21">
+				<Properties>
+					<Name>раствордлявмввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раствор для в/м введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b7c41dec-a870-429c-bd4b-2f49bbd610b5">
+				<Properties>
+					<Name>раствордлянаружногопримененияспиртовой</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раствор для наружного применения спиртовой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2138b02b-8b31-480d-ad51-516d9e34cbe2">
+				<Properties>
+					<Name>раствордляпкввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>раствор для п/к введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5795d38a-5cdf-420f-ba32-916591e61cf9">
+				<Properties>
+					<Name>суспензиявмввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>суспензия для в/м введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7b9a8c70-40c9-4c75-995b-3e1a797b0263">
+				<Properties>
+					<Name>суспензиядляпкввед</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>суспензия для п/к введ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bdc9a3fe-184d-45b7-946a-75b53d00ce4d">
+				<Properties>
+					<Name>таблеткидиспергируемые</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки диспергируемые</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="80ff4dad-29c8-46ac-9576-f67c2eb0338b">
+				<Properties>
+					<Name>таблеткикишечнорастворимыепокрыто</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки кишечнорастворимые покрыт.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7b90c45a-6b7e-4275-8a29-cd86cdf35526">
+				<Properties>
+					<Name>таблеткикишечнорастворимыепокрытпленоб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки кишечнорастворимые покрыт.плен.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="012e0e6f-ec07-4082-a0bd-391bae96b331">
+				<Properties>
+					<Name>таблеткиподъязычные</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки подъязычные</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b795b30f-a330-468a-a4cb-58b1067b07d8">
+				<Properties>
+					<Name>таблеткипокрыткишечнорастворимойоб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки покрыт.кишечнорастворимой об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ca4bd7cf-fc4a-42a8-a6a0-b50e2db95a0d">
+				<Properties>
+					<Name>таблеткипокрытоб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки покрыт.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e1abc0df-425c-4729-a680-0ac744669cfa">
+				<Properties>
+					<Name>таблеткипокрытпленоб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки покрыт.плен.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="36e25118-67b7-4552-9add-495054b32ba5">
+				<Properties>
+					<Name>таблеткипролонгдействия</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки пролонг действия</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9324fb54-8fc1-44fb-bded-7677f4fd2f7d">
+				<Properties>
+					<Name>таблеткипролонгдействияпокрытпленоб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки пролонг действия покрыт.плен.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a6669d03-cd8e-437f-a54e-c00a83140cf6">
+				<Properties>
+					<Name>таблеткисмодифицированнымвысвобождениемпокрытпленб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки с модифицированным высвобождением покрыт.плен.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c4efb54b-b8c9-49af-8d95-7a04988631e1">
+				<Properties>
+					<Name>таблеткиспролонгвысвобождением</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки с пролонг высвобождением</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="376b61cc-ec04-4e31-b281-d082a0609f7d">
+				<Properties>
+					<Name>таблеткиспролонгвысвобождениемпокрытпленоб</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>таблетки с пролонг высвобождением покрыт.плен.об.</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4bfdb14f-535a-4946-8852-511856fd1a14">
+				<Properties>
+					<Name>траваизмельченная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>трава измельченная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
