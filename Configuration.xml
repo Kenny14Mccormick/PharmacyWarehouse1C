@@ -260,6 +260,7 @@
 			<CommonPicture>Отчеты</CommonPicture>
 			<Role>Провизор</Role>
 			<Role>Фармацевт</Role>
+			<CommonTemplate>Накладная71а</CommonTemplate>
 			<CommonModule>Серверный</CommonModule>
 			<Catalog>Лекарства</Catalog>
 			<Catalog>ПроизводителиЛекарств</Catalog>
