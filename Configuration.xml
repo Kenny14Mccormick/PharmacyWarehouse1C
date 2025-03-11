@@ -262,6 +262,7 @@
 			<Role>Фармацевт</Role>
 			<CommonTemplate>Накладная71а</CommonTemplate>
 			<CommonModule>Серверный</CommonModule>
+			<CommonModule>Уведомления</CommonModule>
 			<Catalog>Лекарства</Catalog>
 			<Catalog>ПроизводителиЛекарств</Catalog>
 			<Catalog>Аптеки</Catalog>
