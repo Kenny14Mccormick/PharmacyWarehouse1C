@@ -338,11 +338,11 @@
 			</Attribute>
 			<Attribute uuid="ba504046-b5fb-4b11-bcb3-a2fb4d054492">
 				<Properties>
-					<Name>СрокГодности</Name>
+					<Name>ТиповойСрокГодности</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Срок годности</v8:content>
+							<v8:content>Типовой срок годности</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

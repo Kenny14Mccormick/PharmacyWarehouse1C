@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Адреса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Поставщики</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Справочники</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ПартииЛекарств</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

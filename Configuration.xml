@@ -263,11 +263,13 @@
 			<CommonTemplate>Накладная71а</CommonTemplate>
 			<CommonModule>Серверный</CommonModule>
 			<CommonModule>Уведомления</CommonModule>
+			<ScheduledJob>СписаниеПросроченныхЛекарств</ScheduledJob>
 			<Catalog>Лекарства</Catalog>
 			<Catalog>ПроизводителиЛекарств</Catalog>
 			<Catalog>Аптеки</Catalog>
 			<Catalog>Адреса</Catalog>
 			<Catalog>Поставщики</Catalog>
+			<Catalog>ПартииЛекарств</Catalog>
 			<Document>СозданиеЗаявки</Document>
 			<Document>ЗаказНаСклад</Document>
 			<Document>УстановкаЦенНаЛекарства</Document>
@@ -278,6 +280,7 @@
 			<Enum>СтатусЗаявки</Enum>
 			<Report>ПросмотрОстатков</Report>
 			<Report>ПоставкиЛекарств</Report>
+			<Report>СрокиГодностиЛекарств</Report>
 			<InformationRegister>ЦеныНаЛекарства</InformationRegister>
 			<AccumulationRegister>ОстаткиНаСкладе</AccumulationRegister>
 		</ChildObjects>

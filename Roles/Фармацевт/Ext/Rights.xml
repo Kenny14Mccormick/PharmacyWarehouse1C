@@ -848,7 +848,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Лекарства.Attribute.СрокГодности</name>
+		<name>Catalog.Лекарства.Attribute.ТиповойСрокГодности</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

@@ -76,7 +76,7 @@
 			<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="39"/>
 		</InputField>
 		<InputField name="СрокГодности" id="25">
-			<DataPath>Объект.СрокГодности</DataPath>
+			<DataPath>Объект.ТиповойСрокГодности</DataPath>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СрокГодностиКонтекстноеМеню" id="26"/>
 			<ExtendedTooltip name="СрокГодностиРасширеннаяПодсказка" id="27"/>

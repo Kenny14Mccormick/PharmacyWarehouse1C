@@ -4,13 +4,6 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Сумма</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Аптеки</name>
 		<right>
 			<name>InteractiveDelete</name>
@@ -86,34 +79,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Цена</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.Attribute.Заявка</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.Attribute.Аптека</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Количество</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.СозданиеЗаявки</name>
 		<right>
 			<name>Insert</name>
@@ -133,13 +98,6 @@
 		</right>
 		<right>
 			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.Attribute.Провизор</name>
-		<right>
-			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -225,10 +183,6 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveDelete</name>
 			<value>false</value>
 		</right>
@@ -245,54 +199,7 @@
 			<value>false</value>
 		</right>
 		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.StandardAttribute.Posted</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.StandardAttribute.Ref</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.StandardAttribute.Date</name>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.StandardAttribute.Number</name>
-		<right>
-			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -372,16 +279,9 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Лекарство</name>
+		<name>Catalog.ПартииЛекарств</name>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств</name>
-		<right>
-			<name>Edit</name>
+			<name>InteractiveInsert</name>
 			<value>false</value>
 		</right>
 	</object>
