@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Subsystem.Ценообразование</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Сумма</name>
 		<right>
 			<name>Edit</name>
@@ -723,6 +730,27 @@
 		</right>
 		<right>
 			<name>InteractiveChangeOfPosted</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.УправлениеСкладом</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Отчеты</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.Администрирование</name>
+		<right>
+			<name>View</name>
 			<value>false</value>
 		</right>
 	</object>

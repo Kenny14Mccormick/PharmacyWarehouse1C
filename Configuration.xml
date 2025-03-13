@@ -251,19 +251,24 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Справочники</Subsystem>
-			<Subsystem>Документы</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>УправлениеСкладом</Subsystem>
+			<Subsystem>ЗакупкиИПоставки</Subsystem>
+			<Subsystem>Ценообразование</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
 			<StyleItem>Текст</StyleItem>
 			<Style>Основной_стиль</Style>
 			<CommonPicture>Справочники</CommonPicture>
 			<CommonPicture>Документы</CommonPicture>
 			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>Администрирование</CommonPicture>
+			<CommonPicture>Ценообразование</CommonPicture>
+			<CommonPicture>ЗакупкиИПоставки</CommonPicture>
+			<CommonPicture>УправлениеСкладом</CommonPicture>
 			<Role>Провизор</Role>
 			<Role>Фармацевт</Role>
 			<CommonTemplate>Накладная71а</CommonTemplate>
-			<CommonModule>Серверный</CommonModule>
 			<CommonModule>Уведомления</CommonModule>
-			<ScheduledJob>СписаниеПросроченныхЛекарств</ScheduledJob>
 			<Catalog>Лекарства</Catalog>
 			<Catalog>ПроизводителиЛекарств</Catalog>
 			<Catalog>Аптеки</Catalog>
@@ -274,13 +279,13 @@
 			<Document>ЗаказНаСклад</Document>
 			<Document>УстановкаЦенНаЛекарства</Document>
 			<Document>ПоставкаЛекарств</Document>
+			<Document>СписаниеПросрочки</Document>
 			<Enum>КатегорииЛекарства</Enum>
 			<Enum>ДействующееВещество</Enum>
 			<Enum>ФормаВыпуска</Enum>
 			<Enum>СтатусЗаявки</Enum>
 			<Report>ПросмотрОстатков</Report>
 			<Report>ПоставкиЛекарств</Report>
-			<Report>СрокиГодностиЛекарств</Report>
 			<InformationRegister>ЦеныНаЛекарства</InformationRegister>
 			<AccumulationRegister>ОстаткиНаСкладе</AccumulationRegister>
 		</ChildObjects>

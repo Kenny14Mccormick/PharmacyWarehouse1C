@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<CommandsVisibility>
+		<Command name="Document.СозданиеЗаявки.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Фармацевт">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаказНаСклад.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Поставщики.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПроизводителиЛекарств.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.ЗаказНаСклад.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Поставщики.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ПроизводителиЛекарств.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Report.ПоставкиЛекарств.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Фармацевт">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+</CommandInterface>

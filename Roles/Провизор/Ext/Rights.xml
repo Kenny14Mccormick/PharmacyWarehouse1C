@@ -279,6 +279,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.СписаниеПросрочки</name>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПартииЛекарств</name>
 		<right>
 			<name>InteractiveInsert</name>

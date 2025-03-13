@@ -22,7 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПросмотрОстатков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПоставкиЛекарств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Отчеты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.СрокиГодностиЛекарств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">099e86bb-4e71-4446-b3d5-3fa20ccbcb6a</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
