@@ -159,7 +159,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:CatalogRef.ПартииЛекарств</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПартииЛекарств</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>

@@ -7,7 +7,7 @@
 				<xr:Value name="Role.Фармацевт">false</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.ПартииЛекарств.StandardCommand.OpenList">
+		<Command name="0:f88bd3bc-02d4-410a-a826-c90b90065168">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 				<xr:Value name="Role.Фармацевт">false</xr:Value>
@@ -31,13 +31,13 @@
 				<xr:Value name="Role.Фармацевт">false</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.ПартииЛекарств.StandardCommand.Create">
+		<Command name="1:f88bd3bc-02d4-410a-a826-c90b90065168">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 				<xr:Value name="Role.Фармацевт">false</xr:Value>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.ПартииЛекарств.StandardCommand.CreateFolder">
+		<Command name="2:f88bd3bc-02d4-410a-a826-c90b90065168">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 				<xr:Value name="Role.Фармацевт">false</xr:Value>

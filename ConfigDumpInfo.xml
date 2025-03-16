@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.19">
 	<ConfigVersions>
-		<Metadata name="AccumulationRegister.ОстаткиНаСкладе" id="88e04e70-825f-482b-8c9d-1caeef3d2526" configVersion="3f21424bce02bd4f9d2d9604aa4bfbef00000000">
+		<Metadata name="AccumulationRegister.ОстаткиНаСкладе" id="88e04e70-825f-482b-8c9d-1caeef3d2526" configVersion="eea37965342b9e46a91aa27c8500188b00000000">
 			<Metadata name="AccumulationRegister.ОстаткиНаСкладе.Dimension.Лекарство" id="9ea50b2d-5a50-49d6-aec4-1506181a52aa"/>
 			<Metadata name="AccumulationRegister.ОстаткиНаСкладе.Dimension.Партия" id="cebad1d9-3fce-41a4-a37a-03cc2e732a43"/>
 			<Metadata name="AccumulationRegister.ОстаткиНаСкладе.Attribute.СрокГодности" id="e59cd701-c459-492f-a37a-05be2c35a592"/>
@@ -39,17 +39,6 @@
 		<Metadata name="Catalog.Лекарства.Form.ФормаСписка.Form" id="a8705f53-78a1-49dd-872f-a21dc70e343a.0" configVersion="919f084bf58d254583b085f858ffd3bd00000000"/>
 		<Metadata name="Catalog.Лекарства.Form.ФормаЭлемента" id="f5fb286f-57f0-4da6-8572-e086c84780a3" configVersion="3478137688270744b02bfac8696a438c00000000"/>
 		<Metadata name="Catalog.Лекарства.Form.ФормаЭлемента.Form" id="f5fb286f-57f0-4da6-8572-e086c84780a3.0" configVersion="4a5dcacb03a0ff4a9eae2dd3a2128aeb00000000"/>
-		<Metadata name="Catalog.ПартииЛекарств" id="f88bd3bc-02d4-410a-a826-c90b90065168" configVersion="82ae12d1cc03d348b607641e2ad1c93d00000000">
-			<Metadata name="Catalog.ПартииЛекарств.Attribute.Лекарство" id="1adfe4ac-d588-4510-adf7-7ac389e3c8e4"/>
-			<Metadata name="Catalog.ПартииЛекарств.Attribute.КоличествоОстаток" id="a468ed07-8549-4166-875f-7ce3d49cdec4"/>
-			<Metadata name="Catalog.ПартииЛекарств.Attribute.ДатаПоступления" id="ba502d74-bb84-47dc-a737-0f1ba31734de"/>
-			<Metadata name="Catalog.ПартииЛекарств.Attribute.СрокГодности" id="c8bda632-dc33-474d-b24a-f3898daa53c9"/>
-			<Metadata name="Catalog.ПартииЛекарств.Attribute.КоличествоНачальное" id="cdc146f1-3d69-4bf9-81b7-880a0f632074"/>
-		</Metadata>
-		<Metadata name="Catalog.ПартииЛекарств.Form.ФормаСписка" id="028d993c-a711-43d5-9118-eac3370b895e" configVersion="5b7c1ccb5194e646be8510a0a965318100000000"/>
-		<Metadata name="Catalog.ПартииЛекарств.Form.ФормаСписка.Form" id="028d993c-a711-43d5-9118-eac3370b895e.0" configVersion="acde7df25759704fba1542ea08bfb6e100000000"/>
-		<Metadata name="Catalog.ПартииЛекарств.Form.ФормаЭлемента" id="ca520c2f-ddba-4468-b133-c8f4ee5f5083" configVersion="30e63f2c6148b24c8ff30e1bda5a81a000000000"/>
-		<Metadata name="Catalog.ПартииЛекарств.Form.ФормаЭлемента.Form" id="ca520c2f-ddba-4468-b133-c8f4ee5f5083.0" configVersion="65ed1ca9d27564429fbdb8b7d333786200000000"/>
 		<Metadata name="Catalog.Поставщики" id="39af1b80-74ca-4446-843d-fa9ba757d9ac" configVersion="f6b17cd46ab3ab4fb611fd9fa3ec429300000000">
 			<Metadata name="Catalog.Поставщики.Attribute.Телефон" id="743c65c6-9e54-4163-956e-058670345e6f"/>
 		</Metadata>
@@ -80,7 +69,7 @@
 		<Metadata name="CommonPicture.Ценообразование.Picture" id="3dba5e95-8e7c-4892-9b0e-eccf1ef627e4.0" configVersion="8d4cf2fa8fdc1a479605b88e120ce4b100000000"/>
 		<Metadata name="CommonTemplate.Накладная71а" id="6434bb56-2f9a-4a84-a27d-28ac2ad2fbbb" configVersion="4ca0abbceec7814c98cd3c37f506583600000000"/>
 		<Metadata name="CommonTemplate.Накладная71а.Template" id="6434bb56-2f9a-4a84-a27d-28ac2ad2fbbb.0" configVersion="e77663f71359ff49bae771440a3fe2e500000000"/>
-		<Metadata name="Configuration.Конфигурация" id="8a557da6-7786-487e-aafd-fc9dd9a39eca" configVersion="fcf5fed0e4f842428eb4acfd95d3061700000000"/>
+		<Metadata name="Configuration.Конфигурация" id="8a557da6-7786-487e-aafd-fc9dd9a39eca" configVersion="9ce3ead9d037ca42bec128983e8b1aa400000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="8a0dce1b-ee0f-45c0-b250-f7c8d7663da0.b" configVersion="709594143aa749438bf0cfc33007d3d600000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="8a0dce1b-ee0f-45c0-b250-f7c8d7663da0.8" configVersion="c2b4fcec95fad54d90c722a3d577fea300000000"/>
 		<Metadata name="Configuration.Конфигурация.Logo" id="8a0dce1b-ee0f-45c0-b250-f7c8d7663da0.1" configVersion="6be9a3504db3804791b005995fe3bdb500000000"/>
@@ -88,7 +77,7 @@
 		<Metadata name="Configuration.Конфигурация.MainSectionPicture" id="8a0dce1b-ee0f-45c0-b250-f7c8d7663da0.c" configVersion="ba89461c4e83f14d8fb09effb3cfa93000000000"/>
 		<Metadata name="Configuration.Конфигурация.ManagedApplicationModule" id="8a0dce1b-ee0f-45c0-b250-f7c8d7663da0.6" configVersion="10de283b48c493488ddd5c8414094fe900000000"/>
 		<Metadata name="Configuration.Конфигурация.Splash" id="8a0dce1b-ee0f-45c0-b250-f7c8d7663da0.2" configVersion="fce046ee0dab01439564b87e4c443f0e00000000"/>
-		<Metadata name="Document.ЗаказНаСклад" id="27ca9fb7-66a3-4da2-bec7-f8187f878235" configVersion="74cf83d75afc214d932f5b200fb8ee3b00000000">
+		<Metadata name="Document.ЗаказНаСклад" id="27ca9fb7-66a3-4da2-bec7-f8187f878235" configVersion="36aed936b2e2104d8927c3d70d7dcbae00000000">
 			<Metadata name="Document.ЗаказНаСклад.TabularSection.ПозицииЛекарств.Attribute.Лекарство" id="03484ab5-3b7c-42ef-999a-31fe236163ec"/>
 			<Metadata name="Document.ЗаказНаСклад.TabularSection.ПозицииЛекарств.Attribute.Количество" id="0e45dfcf-2b85-4174-9885-88421d3229c6"/>
 			<Metadata name="Document.ЗаказНаСклад.TabularSection.ПозицииЛекарств.Attribute.Сумма" id="299d2add-29b8-4c0e-9559-f8c4b979c2d2"/>
@@ -99,8 +88,17 @@
 		<Metadata name="Document.ЗаказНаСклад.Form.ФормаДокумента.Form" id="b9fb7ab5-b45b-42a3-8d64-30778e6bb4b3.0" configVersion="b2d734a49f364144a41dfdca87584ee500000000"/>
 		<Metadata name="Document.ЗаказНаСклад.Form.ФормаСписка" id="9a082c6b-e5ba-4404-a5f8-cfe6ae97858b" configVersion="06c67c16429453448dab9d0cbe48ce8500000000"/>
 		<Metadata name="Document.ЗаказНаСклад.Form.ФормаСписка.Form" id="9a082c6b-e5ba-4404-a5f8-cfe6ae97858b.0" configVersion="b370057c402c494bafb96c05c133506000000000"/>
-		<Metadata name="Document.ЗаказНаСклад.ObjectModule" id="27ca9fb7-66a3-4da2-bec7-f8187f878235.0" configVersion="8b490a80c7a0b041a1cd8e1407ba835b00000000"/>
-		<Metadata name="Document.ПоставкаЛекарств" id="bda41f80-111b-4e5a-8ba9-555d15aac32a" configVersion="fc2db48c019bf14d82a78129e2457d2a00000000">
+		<Metadata name="Document.ЗаказНаСклад.ObjectModule" id="27ca9fb7-66a3-4da2-bec7-f8187f878235.0" configVersion="246d8f9a6f140e4383ac08d18b47885700000000"/>
+		<Metadata name="Document.ПартииЛекарств" id="96de22b4-0cc6-466c-8589-88509b291c2d" configVersion="82b4aca9f257b145968667018ef77aa200000000">
+			<Metadata name="Document.ПартииЛекарств.Attribute.ИдентификаторПартии" id="03393a57-c2e4-4c18-9e59-2b3c6cae635c"/>
+			<Metadata name="Document.ПартииЛекарств.TabularSection.СоставПартии.Attribute.Лекарство" id="76b0a58c-224c-4e87-bd95-3ea1ed26c4f8"/>
+			<Metadata name="Document.ПартииЛекарств.Attribute.Заказ" id="8ff8aaf0-63bc-49b3-a04e-01ab9341b7a0"/>
+			<Metadata name="Document.ПартииЛекарств.TabularSection.СоставПартии.Attribute.КоличествоНачальное" id="9b410a08-55b8-43c1-b41b-dcca00618725"/>
+			<Metadata name="Document.ПартииЛекарств.TabularSection.СоставПартии" id="a5f0d19a-d4ea-4a55-8995-095f5c9d1535"/>
+			<Metadata name="Document.ПартииЛекарств.TabularSection.СоставПартии.Attribute.СрокГодности" id="ceb6bcaa-c2f6-4f0e-a892-8488b0d62ab5"/>
+		</Metadata>
+		<Metadata name="Document.ПартииЛекарств.ObjectModule" id="96de22b4-0cc6-466c-8589-88509b291c2d.0" configVersion="32d33222fe16754f992708fb18aaad3f00000000"/>
+		<Metadata name="Document.ПоставкаЛекарств" id="bda41f80-111b-4e5a-8ba9-555d15aac32a" configVersion="2f0cdec31ca4644482a97b6d01f9b5c000000000">
 			<Metadata name="Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Сумма" id="119680b1-9d84-416d-aa05-338fb8e844a5"/>
 			<Metadata name="Document.ПоставкаЛекарств.TabularSection.ПозицииЛекарств.Attribute.Цена" id="46451785-3139-46ad-9bd3-c6248751b629"/>
 			<Metadata name="Document.ПоставкаЛекарств.Attribute.Заявка" id="772c1ad3-5097-463d-90aa-44539e083c6f"/>
@@ -114,7 +112,7 @@
 		<Metadata name="Document.ПоставкаЛекарств.Form.ФормаДокумента.Form" id="22c20033-ffb6-4d5c-9124-8379fd739848.0" configVersion="77ab52216d577d4795d8af4b5f01b1e800000000"/>
 		<Metadata name="Document.ПоставкаЛекарств.Form.ФормаСписка" id="6f3c0798-c220-4095-963f-79785ef5f07a" configVersion="d27c2a8ada59724c95f13e9aec9223e000000000"/>
 		<Metadata name="Document.ПоставкаЛекарств.Form.ФормаСписка.Form" id="6f3c0798-c220-4095-963f-79785ef5f07a.0" configVersion="1aa81d2047855d43bf3074006229e38c00000000"/>
-		<Metadata name="Document.ПоставкаЛекарств.ObjectModule" id="bda41f80-111b-4e5a-8ba9-555d15aac32a.0" configVersion="4ddba795eabc0f4385a7a227401ca70200000000"/>
+		<Metadata name="Document.ПоставкаЛекарств.ObjectModule" id="bda41f80-111b-4e5a-8ba9-555d15aac32a.0" configVersion="42e4f28f0b7b7c4ab716462166ac3a4000000000"/>
 		<Metadata name="Document.СозданиеЗаявки" id="96fda020-6eb3-4291-b6e1-ec9c0bc229ec" configVersion="9f6780bcc8ff0a4b8294d381f1c7eaf100000000">
 			<Metadata name="Document.СозданиеЗаявки.TabularSection.ПозицииЛекарств.Attribute.Количество" id="1396b081-1f9a-47ec-92b2-4e91a59c7099"/>
 			<Metadata name="Document.СозданиеЗаявки.Attribute.Выполнена" id="941af33a-9148-4a9e-919c-947fa2f760ef"/>
@@ -129,7 +127,7 @@
 		<Metadata name="Document.СозданиеЗаявки.Form.ФормаСписка" id="a4210791-471c-4230-bf6e-57b5b7ae083f" configVersion="35f2c88cc5dd504985abc3cdd1c49e2500000000"/>
 		<Metadata name="Document.СозданиеЗаявки.Form.ФормаСписка.Form" id="a4210791-471c-4230-bf6e-57b5b7ae083f.0" configVersion="b65d728e9c425046a2ec518c7db7706c00000000"/>
 		<Metadata name="Document.СозданиеЗаявки.ObjectModule" id="96fda020-6eb3-4291-b6e1-ec9c0bc229ec.0" configVersion="ed8e8313416cc3418654c60dbff3c23a00000000"/>
-		<Metadata name="Document.СписаниеПросрочки" id="ed424b7e-8eea-4878-845e-e306960f1ad9" configVersion="cdd922a933d9094fbc204aeced7aac2900000000">
+		<Metadata name="Document.СписаниеПросрочки" id="ed424b7e-8eea-4878-845e-e306960f1ad9" configVersion="515fd3355983274a84f614b348798add00000000">
 			<Metadata name="Document.СписаниеПросрочки.TabularSection.ПросроченныеПартии.Attribute.СрокГодности" id="0057bb91-2262-4dbe-bece-aee1c48afe23"/>
 			<Metadata name="Document.СписаниеПросрочки.TabularSection.ПросроченныеПартии.Attribute.Количество" id="18e82156-89f2-449a-89f0-d9b59e69e84a"/>
 			<Metadata name="Document.СписаниеПросрочки.Attribute.Комментарий" id="65971422-5d66-4469-bd25-502f3abf8a00"/>
@@ -137,9 +135,9 @@
 			<Metadata name="Document.СписаниеПросрочки.TabularSection.ПросроченныеПартии.Attribute.Партия" id="7379647d-b364-41d2-a9ab-ea676ac74fda"/>
 			<Metadata name="Document.СписаниеПросрочки.TabularSection.ПросроченныеПартии" id="a06232ff-d095-4218-a6ca-6f4a80e58158"/>
 		</Metadata>
-		<Metadata name="Document.СписаниеПросрочки.Form.ФормаСписка" id="c7d6dd5e-88f0-450e-854a-df3e92bee4cf" configVersion="4b34c2f994e3b443b15776fb180afe1700000000"/>
-		<Metadata name="Document.СписаниеПросрочки.Form.ФормаСписка.Form" id="c7d6dd5e-88f0-450e-854a-df3e92bee4cf.0" configVersion="e65d707092eb344db56283a8e21d365000000000"/>
-		<Metadata name="Document.СписаниеПросрочки.ObjectModule" id="ed424b7e-8eea-4878-845e-e306960f1ad9.0" configVersion="c5447f05416819439fa31aa6c10dfa1900000000"/>
+		<Metadata name="Document.СписаниеПросрочки.Form.ФормаСписка" id="c7d6dd5e-88f0-450e-854a-df3e92bee4cf" configVersion="44b533a23c926d45a1805c933bb88abd00000000"/>
+		<Metadata name="Document.СписаниеПросрочки.Form.ФормаСписка.Form" id="c7d6dd5e-88f0-450e-854a-df3e92bee4cf.0" configVersion="16ec77ba953413409c280c784fd7fc4000000000"/>
+		<Metadata name="Document.СписаниеПросрочки.ObjectModule" id="ed424b7e-8eea-4878-845e-e306960f1ad9.0" configVersion="cc39125d48f6ec459484a2ccdd33c1a000000000"/>
 		<Metadata name="Document.УстановкаЦенНаЛекарства" id="afad151e-bfff-4cb1-99d2-65396755f832" configVersion="640dc486ec65e14a8bfa29de98ed243d00000000">
 			<Metadata name="Document.УстановкаЦенНаЛекарства.TabularSection.Медикаменты.Attribute.Цена" id="69f28088-106d-4d52-b1e9-bdf13a8dcdec"/>
 			<Metadata name="Document.УстановкаЦенНаЛекарства.TabularSection.Медикаменты" id="850ea6f7-29ad-4b5a-9d83-33cab6ab5a81"/>
@@ -303,8 +301,8 @@
 		<Metadata name="Report.ПоставкиЛекарств.Template.ОсновнаяСхемаКомпоновкиДанных" id="61a0d8c2-c4ac-419a-8e18-eed511831c77" configVersion="d126d2872e975c4fb356b0bccf59d56000000000"/>
 		<Metadata name="Report.ПоставкиЛекарств.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="61a0d8c2-c4ac-419a-8e18-eed511831c77.0" configVersion="4f264e50847cfb45aa519311a85e8e3a00000000"/>
 		<Metadata name="Report.ПросмотрОстатков" id="c129160b-8538-4aab-b509-b9913c6647c1" configVersion="ea08dcae1257364db9039793c3bd29d700000000"/>
-		<Metadata name="Report.ПросмотрОстатков.Template.ОсновнаяСхемаКомпоновкиДанных" id="e0f9d8a9-1b88-40cb-8994-ea029f940a2a" configVersion="4f2cf84147145f4d96a355e18a3fb25100000000"/>
-		<Metadata name="Report.ПросмотрОстатков.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="e0f9d8a9-1b88-40cb-8994-ea029f940a2a.0" configVersion="99bb366a64ffcd4b93c48c6c646eb88200000000"/>
+		<Metadata name="Report.ПросмотрОстатков.Template.ОсновнаяСхемаКомпоновкиДанных" id="e0f9d8a9-1b88-40cb-8994-ea029f940a2a" configVersion="564aba7da41ef64795f884e28292c9fb00000000"/>
+		<Metadata name="Report.ПросмотрОстатков.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="e0f9d8a9-1b88-40cb-8994-ea029f940a2a.0" configVersion="13322b851747a64fb5f02fb859e381c600000000"/>
 		<Metadata name="Role.Провизор" id="e95717c7-31c6-4133-9f02-a67938b67304" configVersion="94f1e53a69a4154d8a5a2e6710896c0300000000"/>
 		<Metadata name="Role.Провизор.Rights" id="e95717c7-31c6-4133-9f02-a67938b67304.0" configVersion="4ecbcfba1f6c43468d018ca4aab811a300000000"/>
 		<Metadata name="Role.Фармацевт" id="f8cd283e-5bd6-4bc0-abf6-2484475cc6bb" configVersion="e15f107ffc90fe41ae79cbbd63cfd2b700000000"/>
@@ -320,7 +318,7 @@
 		<Metadata name="Subsystem.Отчеты.CommandInterface" id="a049dfae-0114-4bdb-bea0-fad2b62b8f29.1" configVersion="e4fd6a0e15b472489c9ac66943279fc600000000"/>
 		<Metadata name="Subsystem.Справочники" id="d021f94d-3c12-4bb6-96d4-f797e1aaf6ca" configVersion="b44c7803535d5b49bc7fd426763e7c9100000000"/>
 		<Metadata name="Subsystem.Справочники.CommandInterface" id="d021f94d-3c12-4bb6-96d4-f797e1aaf6ca.1" configVersion="b2138375f9a89349ba054cef138e802900000000"/>
-		<Metadata name="Subsystem.УправлениеСкладом" id="98bc1c9f-da29-48b4-87a4-001509350aec" configVersion="db7aca8ecdefe248af3bac56a95fa5f900000000"/>
+		<Metadata name="Subsystem.УправлениеСкладом" id="98bc1c9f-da29-48b4-87a4-001509350aec" configVersion="f798f4ebadcabd4fb23afe341a33916100000000"/>
 		<Metadata name="Subsystem.УправлениеСкладом.CommandInterface" id="98bc1c9f-da29-48b4-87a4-001509350aec.1" configVersion="d50d970f82c3344b83a3b116aa2bc3b900000000"/>
 		<Metadata name="Subsystem.Ценообразование" id="0ac47824-2181-4789-9312-399f9b0bfe88" configVersion="fb2aeed3b7e358418386f650cd7d042800000000"/>
 		<Metadata name="Subsystem.Ценообразование.CommandInterface" id="0ac47824-2181-4789-9312-399f9b0bfe88.1" configVersion="3d4d1d71b4678d42ae58a19d6c50b4b300000000"/>

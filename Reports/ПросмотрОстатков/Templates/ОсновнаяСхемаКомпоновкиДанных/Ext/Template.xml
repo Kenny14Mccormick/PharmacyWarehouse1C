@@ -25,15 +25,75 @@
 					<v8:content>Количество</v8:content>
 				</v8:item>
 			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧН=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партия</dataPath>
+			<field>Партия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоступления</dataPath>
+			<field>ДатаПоступления</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата поступления</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокГодности</dataPath>
+			<field>СрокГодности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторПартии</dataPath>
+			<field>ИдентификаторПартии</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-    Лекарства.Ссылка КАК Лекарство,
-    ЕСТЬNULL(ОстаткиНаСкладеОстатки.КоличествоОстаток, 0) КАК КоличествоОстаток
+	ПартииЛекарств.Ссылка КАК Партия,
+	ПартииЛекарствСоставПартии.Лекарство КАК Лекарство,
+	ПартииЛекарствСоставПартии.СрокГодности КАК СрокГодности,
+	ПартииЛекарств.Дата КАК ДатаПоступления,
+	ПартииЛекарств.ИдентификаторПартии КАК ИдентификаторПартии
+ПОМЕСТИТЬ ВТПартии
 ИЗ
-    Справочник.Лекарства КАК Лекарства
-    ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ОстаткиНаСкладе.Остатки КАК ОстаткиНаСкладеОстатки
-    ПО Лекарства.Ссылка = ОстаткиНаСкладеОстатки.Лекарство</query>
+	Документ.ПартииЛекарств КАК ПартииЛекарств
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПартииЛекарств.СоставПартии КАК ПартииЛекарствСоставПартии
+		ПО ПартииЛекарств.Ссылка = ПартииЛекарствСоставПартии.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТПартии.Партия КАК Партия,
+	ВТПартии.Лекарство КАК Лекарство,
+	ВЫБОР
+		КОГДА ОстаткиНаСкладеОстатки.КоличествоОстаток ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ ОстаткиНаСкладеОстатки.КоличествоОстаток
+	КОНЕЦ КАК КоличествоОстаток,
+	ВТПартии.СрокГодности КАК СрокГодности,
+	ВТПартии.ДатаПоступления КАК ДатаПоступления,
+	ВТПартии.ИдентификаторПартии КАК ИдентификаторПартии
+ИЗ
+	ВТПартии КАК ВТПартии
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ОстаткиНаСкладе.Остатки(&amp;НаДату, ) КАК ОстаткиНаСкладеОстатки
+		ПО ВТПартии.Партия = ОстаткиНаСкладеОстатки.Партия
+			И ВТПартии.Лекарство = ОстаткиНаСкладеОстатки.Лекарство
+
+УПОРЯДОЧИТЬ ПО
+	ВТПартии.ИдентификаторПартии,
+	ВТПартии.Лекарство</query>
 	</dataSet>
 	<totalField>
 		<dataPath>КоличествоОстаток</dataPath>
@@ -56,6 +116,23 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 		<expression>ТекущаяДатаСеанса()</expression>
+	</parameter>
+	<parameter>
+		<name>НаДату</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>На дату</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -190,6 +267,46 @@
 						<dcsset:field>КоличествоОстаток</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Партия</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоОстаток</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Лекарство</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоОстаток</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>СрокГодности</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ДатаПоступления</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

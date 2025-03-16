@@ -37,7 +37,7 @@
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultListForm>AccumulationRegister.ОстаткиНаСкладе.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm/>
 			<AuxiliaryListForm/>
 			<RegisterType>Balance</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -81,7 +81,7 @@
 						</v8:item>
 					</EditFormat>
 					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
+					<MarkNegatives>true</MarkNegatives>
 					<Mask/>
 					<MultiLine>false</MultiLine>
 					<ExtendedEdit>false</ExtendedEdit>
@@ -226,7 +226,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.ПартииЛекарств</v8:Type>
+						<v8:Type>cfg:DocumentRef.ПартииЛекарств</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

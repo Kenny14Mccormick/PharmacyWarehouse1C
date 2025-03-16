@@ -274,12 +274,12 @@
 			<Catalog>Аптеки</Catalog>
 			<Catalog>Адреса</Catalog>
 			<Catalog>Поставщики</Catalog>
-			<Catalog>ПартииЛекарств</Catalog>
 			<Document>СозданиеЗаявки</Document>
 			<Document>ЗаказНаСклад</Document>
 			<Document>УстановкаЦенНаЛекарства</Document>
 			<Document>ПоставкаЛекарств</Document>
 			<Document>СписаниеПросрочки</Document>
+			<Document>ПартииЛекарств</Document>
 			<Enum>КатегорииЛекарства</Enum>
 			<Enum>ДействующееВещество</Enum>
 			<Enum>ФормаВыпуска</Enum>
